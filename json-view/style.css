@@ -1,0 +1,67 @@
+body {
+  white-space: pre;
+  font-family: monospace;
+}
+
+.property {
+  font-weight: bold;
+  color: rgb(146, 39, 143);
+}
+
+.type-null {
+  font-weight: bold;
+  color: gray;
+}
+
+.type-boolean {
+  font-weight: bold;
+  color: rgb(249, 130, 128);
+}
+
+.type-number {
+  font-weight: bold;
+  color: rgb(37, 170, 226);
+}
+
+.type-string {
+  font-weight: bold;
+  color: rgb(58, 181, 74);
+}
+
+.callback-function {
+  font-weight: bold;
+  color: rgb(146, 39, 143);
+}
+
+.collapser:after {
+  content: "-";
+}
+
+.collapsed > .collapser:after {
+  content: "+";
+}
+
+.ellipsis:after {
+  content: " … ";
+}
+
+.collapsible {
+  margin-left: 2em;
+}
+
+.hoverable {
+  padding-top: 1px;
+  padding-bottom: 1px;
+  padding-left: 2px;
+  padding-right: 2px;
+  border-radius: 2px;
+}
+
+.hovered {
+  background-color: rgba(235, 238, 249, 1);  
+}
+
+.collapser {
+  padding-right: 6px;
+  padding-left: 6px;
+}
